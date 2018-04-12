@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.dependency "NatImage"
 
   s.subspec 'NatImage' do |ss|
-    ss.source = { :svn => 'https://github.com/ttarigo/nat-media-image.git' }
+    ss.source = { :git => 'https://github.com/ttarigo/nat-media-image.git' }
   end
 end
