@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.dependency "WeexSDK"
   s.dependency "NatImage"
 
-  s.subspec 'SharedLib' do |ss|
+  s.subspec 'NatImage' do |ss|
     ss.source = { :svn => 'https://github.com/ttarigo/nat-media-image.git' }
   end
 end
