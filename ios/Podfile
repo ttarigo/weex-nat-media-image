@@ -5,7 +5,7 @@ platform :ios, '7.0'
 def common
 	pod 'WeexSDK'
 	pod 'WeexPluginLoader'
-	pod 'NatImage'
+	pod 'NatImage' :git => 'https://github.com/ttarigo/nat-media-image.git'
 end
 
 target 'WeexNatMediaImage' do
