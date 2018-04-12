@@ -21,5 +21,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency "WeexPluginLoader"
   s.dependency "WeexSDK"
-  s.dependency {:git => 'https://github.com/ttarigo/nat-media-image.git'}
+  s.dependency "NatImage"
+
+  s.subspec 'SharedLib' do |ss|
+    ss.source = { :svn => 'https://github.com/ttarigo/nat-media-image.git' }
+  end
 end
